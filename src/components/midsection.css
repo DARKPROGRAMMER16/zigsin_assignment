@@ -1,0 +1,10 @@
+#midsection{
+    background-image: url('../images/image32image.png');
+    min-height: 430px;
+}
+.inner-midsection{
+    background-color: rgba(1, 1, 112, 0.342);
+    max-width: 550px;
+    min-height: 250px;
+    color: #fff;
+}
