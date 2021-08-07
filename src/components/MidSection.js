@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import ButtonCustom from './ButtonCustom';
 import './midsection.css';
 
 const MidSection = () => {
@@ -9,7 +10,13 @@ const MidSection = () => {
                     <div className="innerbox">
                         <h1>The gift of happiness</h1>
                         <p className="my-4">Show your gratitude with one of our gift sets, large and small, specially designed to spread joy to someone you love.</p>
-                        <button className="btn btn-outline-primary">Shop Now</button>
+                        <ButtonCustom
+                            my="my-3"
+                            text="SHOP NOW"
+                            color="white"
+                            bg="#fd7f73"
+                            border="none"
+                        />
                     </div>
                 </div>
             </div>
